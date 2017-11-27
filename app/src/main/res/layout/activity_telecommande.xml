@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/fond_telecommande3"
+    tools:context=".ActivityTelecommande">
+
+
+    <ImageButton
+        android:layout_width="@dimen/button_tel_size_big"
+        android:layout_height="@dimen/button_tel_size_big"
+        android:id="@+id/gauche"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:padding="0dp"
+        android:layout_x="60dp"
+        android:layout_y="50dp"
+        android:background="@null"
+        android:src="@drawable/tourner_gauche" />
+
+    <ImageButton
+        android:layout_width="@dimen/button_tel_size_small"
+        android:layout_height="@dimen/button_tel_size_small"
+        android:id="@+id/switchDroit"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:padding="0dp"
+        android:layout_x="110dp"
+        android:layout_y="225dp"
+        android:background="@null"
+        android:src="@drawable/switch_droite" />
+
+    <ImageButton
+        android:layout_width="@dimen/button_tel_size_big"
+        android:layout_height="@dimen/button_tel_size_big"
+        android:id="@+id/magnetique"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:padding="0dp"
+        android:layout_x="60dp"
+        android:layout_y="370dp"
+        android:nestedScrollingEnabled="false"
+        android:background="@null"
+        android:src="@drawable/test_baril" />
+
+    <ImageButton
+        android:layout_width="@dimen/button_tel_size_big"
+        android:layout_height="@dimen/button_tel_size_big"
+        android:id="@+id/simpleTrait"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:padding="0dp"
+        android:layout_x="480dp"
+        android:layout_y="50dp"
+        android:nestedScrollingEnabled="false"
+        android:background="@null"
+        android:src="@drawable/premier_trait" />
+
+    <ImageButton
+        android:layout_width="@dimen/button_tel_size_big"
+        android:layout_height="@dimen/button_tel_size_big"
+        android:id="@+id/demiTour"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:padding="0dp"
+        android:layout_x="480dp"
+        android:layout_y="370dp"
+        android:background="@null"
+        android:src="@drawable/demi_tour" />
+
+    <ImageButton
+        android:layout_width="@dimen/button_tel_size_big"
+        android:layout_height="@dimen/button_tel_size_big"
+        android:id="@+id/droite"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:padding="0dp"
+        android:layout_x="690dp"
+        android:layout_y="50dp"
+        android:background="@null"
+        android:src="@drawable/tourner_droite" />
+
+    <ImageButton
+        android:layout_width="@dimen/button_tel_size_big"
+        android:layout_height="@dimen/button_tel_size_big"
+        android:id="@+id/appuiSwitch"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:padding="0dp"
+        android:layout_x="690dp"
+        android:layout_y="370dp"
+        android:background="@null"
+        android:nestedScrollingEnabled="true"
+        android:src="@drawable/appui_switch" />
+
+    <ImageButton
+        android:layout_width="@dimen/button_tel_size_small"
+        android:layout_height="@dimen/button_tel_size_small"
+        android:id="@+id/switchGauche"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:padding="0dp"
+        android:layout_x="40dp"
+        android:layout_y="225dp"
+        android:background="@null"
+        android:src="@drawable/switch_gauche" />
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="210dp"
+        android:id="@+id/backgroudLevier"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:padding="0dp"
+        android:layout_x="705dp"
+        android:layout_y="150dp"
+        android:background="@null"
+        android:visibility="visible"
+        android:src="@drawable/levier" />
+
+    <SeekBar
+        android:layout_width="143dp"
+        android:layout_height="wrap_content"
+        android:rotation="270"
+        android:id="@+id/seekBar"
+        android:layout_x="665dp"
+        android:layout_y="235dp"
+        android:visibility="visible"/>
+
+    <ImageButton
+        android:layout_width="@dimen/button_tel_size_big"
+        android:layout_height="@dimen/button_tel_size_big"
+        android:id="@+id/pousser_baril"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:padding="0dp"
+        android:layout_x="480dp"
+        android:layout_y="210dp"
+        android:background="@null"
+        android:src="@drawable/pousse_baril" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aide"
+        android:id="@+id/buttonAide"
+        android:layout_x="845dp"
+        android:layout_y="70dp"
+        android:textSize="20dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Retour"
+        android:id="@+id/buttonMenu"
+        android:layout_x="845dp"
+        android:layout_y="130dp"
+        android:textSize="18dp" />
+
+
+
+
+    <Button
+        android:layout_width="121dp"
+        android:layout_height="65dp"
+        android:text="Retour"
+        android:id="@+id/buttonRetour"
+        android:layout_gravity="bottom"
+        android:layout_x="795dp"
+        android:layout_y="468dp"
+        android:textSize="20dp"
+        android:visibility="invisible"/>
+
+    <ImageButton
+        android:layout_width="@dimen/button_tel_size_big"
+        android:layout_height="@dimen/button_tel_size_big"
+        android:id="@+id/reculer"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:padding="0dp"
+        android:layout_x="270dp"
+        android:layout_y="50dp"
+        android:background="@null"
+        android:src="@drawable/marche_arriere" />
+
+    <ImageButton
+        android:layout_width="@dimen/button_tel_size_big"
+        android:layout_height="@dimen/button_tel_size_big"
+        android:id="@+id/petiteAvance"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:padding="0dp"
+        android:layout_x="270dp"
+        android:layout_y="210dp"
+        android:background="@null"
+        android:src="@drawable/avancer_un_peu" />
+
+    <ImageButton
+        android:layout_width="@dimen/button_tel_size_big"
+        android:layout_height="@dimen/button_tel_size_big"
+        android:id="@+id/testRoute"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:padding="0dp"
+        android:layout_x="270dp"
+        android:layout_y="370dp"
+        android:background="@null"
+        android:src="@drawable/calibrage_ligne" />
+
+    <ImageView
+        android:id="@+id/aide"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/commandes"
+        android:visibility="invisible"/>
+
+</AbsoluteLayout>
